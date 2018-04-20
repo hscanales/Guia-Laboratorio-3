@@ -41,4 +41,21 @@ public class Array {
         String[] partes= string.split(",");
         return partes;
     }
+
+
+    Double[] toDouble(String[] array){
+        Double[] temp = new Double[array.length];
+  
+            for(int i=0;i<array.length;i++){
+            temp[i]= Double.parseDouble(array[i]);
+        }
+
+        return temp;
+    }
+
+
+
+
 }
+
+ 

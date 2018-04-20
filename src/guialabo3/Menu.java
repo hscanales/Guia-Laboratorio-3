@@ -11,8 +11,7 @@ import java.util.Scanner;
  *
  * @author HsCanales <00136317@uca.edu.sv>
  */
-public class Menu {
-    Auxiliar hc= new Auxiliar();
+public class Menu extends Auxiliar{
     Scanner sc= new Scanner(System.in);
     public Menu() {
     }
@@ -40,22 +39,24 @@ public class Menu {
                     break;
                 case 1: 
                     Ejercicio1 ejercicio1=new Ejercicio1();
-                    hc.print("El Array es: ");
-                    hc.print(ejercicio1.array1);
-                    hc.print("La suma del Arreglo es: ");
-                    hc.print(ejercicio1.sumar(ejercicio1.array1));
+                    print("El Array es: ");
+                    print(ejercicio1.array1);
+                    print("La suma del Arreglo es: ");
+                    print(ejercicio1.sumar(ejercicio1.array1));
                     break;
                 case 2:
                     Ejercicio2 ejercicio2= new Ejercicio2();
-                    hc.print(ejercicio2.start());
+                    print(ejercicio2.start());
                     break;
                 case 3:
                     Ejercicio3 ejercicio3= new Ejercicio3();
                     ejercicio3.start();
                     break;
                 case 4:
-                    break;
+                    break;                   
                 case 5:
+                    Ejercicio5 ejercicio5= new Ejercicio5();
+                    ejercicio5.start();
                     break;
                 case 6:
                     break;

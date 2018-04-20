@@ -19,9 +19,11 @@ public class Ejercicio3 extends Array {
 
     void start() {
         String[] array3 = pedir();
-        System.out.print(Arrays.toString(array3));
+        System.out.println("Arreglo sin invertir: ");
+        System.out.println(Arrays.toString(array3));
+        System.out.println("Arreglo invertido: ");
         ArrayUtils.reverse(array3);
-        System.out.print(Arrays.toString(array3));
+        System.out.println(Arrays.toString(array3));
     }
 
 }
