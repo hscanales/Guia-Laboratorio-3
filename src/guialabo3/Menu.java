@@ -19,6 +19,7 @@ public class Menu {
     
 
     void deploy() {
+     System.out.println();
      System.out.println("Menu Laboratorio 3");
      for(int i=1;i<23;i++){
          System.out.println(i+"- Ejercicio "+i);
@@ -45,6 +46,8 @@ public class Menu {
                     hc.print(ejercicio1.sumar(ejercicio1.array1));
                     break;
                 case 2:
+                    Ejercicio2 ejercicio2= new Ejercicio2();
+                    hc.print(ejercicio2.start());
                     break;
                 case 3:
                     break;
