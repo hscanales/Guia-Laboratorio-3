@@ -18,7 +18,7 @@ public class Ejercicio2 {
     }
     String[] start(){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Ingrese los numeros enteros que quiera ingresar separados por una coma ',': ");
+        System.out.println("Ingrese los numeros enteros que quiera ingresar separados por una coma ',' , Presione Enter para terminar: ");
         String string=sc.nextLine();
         String[] partes= string.split(",");
         return partes;

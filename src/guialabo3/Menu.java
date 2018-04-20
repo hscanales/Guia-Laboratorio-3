@@ -50,6 +50,8 @@ public class Menu {
                     hc.print(ejercicio2.start());
                     break;
                 case 3:
+                    Ejercicio3 ejercicio3= new Ejercicio3();
+                    ejercicio3.start();
                     break;
                 case 4:
                     break;
